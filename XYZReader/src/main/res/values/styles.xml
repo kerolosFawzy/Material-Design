@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
@@ -11,6 +11,15 @@
     <style name="mToolBarThem" parent="AlertDialog.AppCompat">
         <item name="android:maxWidth">50dp</item>
         <item name="android:background">@color/ToolBar</item>
+    </style>
+
+    <style name="mTextAppearance">
+        <item name="android:autoSizeMinTextSize" tools:targetApi="o">16sp</item>
+        <item name="android:autoSizeMaxTextSize" tools:targetApi="o">24sp</item>
+        <item name="android:autoSizeTextType" tools:targetApi="o">uniform</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textColorLink">#04561A</item>
     </style>
 
 </resources>
